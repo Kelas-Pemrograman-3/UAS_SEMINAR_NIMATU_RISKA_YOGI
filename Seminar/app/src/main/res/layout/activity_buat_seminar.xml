@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/teal"
+    tools:context=".BuatSeminar">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/tambahseminar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/rounded"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtnama"
+            android:hint="Nama Seminar"
+            android:gravity="center"
+            android:inputType="textAutoComplete"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtwaktu"
+            android:hint="Tanggal Seminar"
+            android:gravity="center"
+            android:inputType="textAutoComplete" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edthari"
+            android:hint="Hari Seminar"
+            android:gravity="center"
+            android:inputType="textAutoComplete" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edttempat"
+            android:hint="Tempat Seminar"
+            android:gravity="center"
+            android:inputType="textAutoComplete" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtpemateri"
+            android:hint="Pemateri Seminar"
+            android:gravity="center"
+            android:inputType="textAutoComplete" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah SEMINAR"
+            android:id="@+id/btntambah"/>
+    </LinearLayout>
+</LinearLayout>
